@@ -729,7 +729,7 @@
         testimonialsItems: [{
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Khush Vachhani simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Khush Vachhani to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: {
@@ -743,7 +743,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Khush Vachhani is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
           quoteAuthor: {
@@ -757,7 +757,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Khush Vachhani team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Khush Vachhani in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: {
@@ -771,7 +771,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Khush Vachhani worked on a handful of projects for us and has always exceeded our expectations. Khush Vachhani team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: {
@@ -841,7 +841,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Khush Vachhani worked on a handful of projects for us and has always exceeded our expectations. Khush Vachhani team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: {
@@ -855,7 +855,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Khush Vachhani team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Khush Vachhani in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: {
@@ -869,7 +869,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Khush Vachhani is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
           quoteAuthor: {
@@ -883,7 +883,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Khush Vachhani simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Khush Vachhani to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: {
@@ -897,7 +897,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Khush Vachhani simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Khush Vachhani to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: {
@@ -911,7 +911,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Khush Vachhani is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
           quoteAuthor: {
@@ -925,7 +925,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Khush Vachhani team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Khush Vachhani in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: {
@@ -939,7 +939,7 @@
         }, {
           imgUrl: 'https://via.placeholder.com/200',
           quoteContent: {
-            en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Khush Vachhani worked on a handful of projects for us and has always exceeded our expectations. Khush Vachhani team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: {
@@ -1052,7 +1052,7 @@
       // get a theme to use
       getAppTheme() {
         // get the saved theme from the localStorage
-        const storageSavedTheme = localStorage.getItem('nafieSavedTheme'); // Check to see if there a saved theme
+        const storageSavedTheme = localStorage.getItem('Khush VachhaniSavedTheme'); // Check to see if there a saved theme
 
         if (storageSavedTheme) {
           this.savedTheme = storageSavedTheme;
@@ -1073,14 +1073,14 @@
         } // save the new theme in the localStorage
 
 
-        localStorage.setItem('nafieSavedTheme', this.savedTheme);
+        localStorage.setItem('Khush VachhaniSavedTheme', this.savedTheme);
       },
 
       // detect the theme changes
       changeAppTheme() {
         this.savedTheme === 'light_theme' ? this.savedTheme = 'dark_theme' : this.savedTheme = 'light_theme'; // save the new theme in the localStorage
 
-        localStorage.setItem('nafieSavedTheme', this.savedTheme);
+        localStorage.setItem('Khush VachhaniSavedTheme', this.savedTheme);
       },
 
       // toggle nav menu
