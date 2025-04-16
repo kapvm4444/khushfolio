@@ -157,12 +157,14 @@ html[dir=ltr] body {
   --logo-font-family: "Saira Stencil One", sans-serif;
   --headings-font-family: "Poppins", sans-serif;
   --body-font-family: "Roboto", sans-serif;
+  cursor: none;
 }
 
 html[dir=rtl] body {
   --logo-font-family: "Tajawal", sans-serif;
   --headings-font-family: "Tajawal", sans-serif;
   --body-font-family: "Tajawal", sans-serif;
+  cursor: none;
 }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -3423,7 +3425,7 @@ html[dir=rtl] .about-section .section-content .about-img .layer:first-of-type:be
   border-radius: 0.63rem;
   -webkit-box-shadow: var(--card-shadow);
           box-shadow: var(--card-shadow);
-  cursor: help;
+  cursor: none;
   visibility: hidden;
 }
 .skills-section .section-content .skills-items li .skill-icon img {
@@ -3566,7 +3568,7 @@ html[dir=rtl] .experience-section .section-content .experience-timeline .timepat
       -ms-flex-pack: center;
           justify-content: center;
   height: 30px;
-  cursor: help;
+  cursor: none;
   visibility: hidden;
 }
 .experience-section .section-content .experience-timeline .timeline-items li:nth-of-type(6n + 4) {
@@ -3900,7 +3902,7 @@ html[dir=rtl] .portfolio-section .section-content .portfolio-items .works-filter
   animation: floating 20s linear infinite alternate-reverse both;
 }
 .testimonials-section .section-content .testimonials-items li .testimonials-item {
-  cursor: help;
+  cursor: none;
   visibility: hidden;
 }
 .testimonials-section .section-content .testimonials-items li .testimonials-item img {
