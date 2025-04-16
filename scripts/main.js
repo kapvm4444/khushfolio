@@ -682,12 +682,7 @@
                 portfolioItems: [],
             };
         },
-],
-    // viewed portfolio items
-    portfolioItems: [],
-}
-    ;
-},
+
 
     created()
 {
