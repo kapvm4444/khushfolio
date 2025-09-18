@@ -642,6 +642,30 @@
         // list of skills items to loop through it
         skillsItems: [
           {
+            imgUrl: "assets/images/skills/react.png",
+            title: "React",
+          },
+          {
+            imgUrl: "assets/images/skills/redux.png",
+            title: "Redux",
+          },
+          {
+            imgUrl: "assets/images/skills/react-query.png",
+            title: "React Query",
+          },
+          {
+            imgUrl: "assets/images/skills/react-router.png",
+            title: "React Router",
+          },
+          {
+            imgUrl: "assets/images/skills/vite.png",
+            title: "Vite",
+          },
+          {
+            imgUrl: "assets/images/skills/next.png",
+            title: "Next",
+          },
+          {
             imgUrl: "assets/images/skills/node.png",
             title: "NodeJs",
           },
@@ -650,12 +674,20 @@
             title: "ExpressJS",
           },
           {
-            imgUrl: "assets/images/skills/react.png",
-            title: "React",
+            imgUrl: "assets/images/skills/socket.png",
+            title: "Socket",
           },
           {
-            imgUrl: "assets/images/skills/next.png",
-            title: "Next",
+            imgUrl: "assets/images/skills/mongo.png",
+            title: "MongoDB",
+          },
+          {
+            imgUrl: "assets/images/skills/supabase.png",
+            title: "Supabase",
+          },
+          {
+            imgUrl: "assets/images/skills/jwt.png",
+            title: "JWT",
           },
           {
             imgUrl: "assets/images/skills/tailwind.png",
@@ -666,35 +698,12 @@
             title: "Bootstrap",
           },
           {
-            imgUrl: "assets/images/skills/mongo.png",
-            title: "MongoDB",
+            imgUrl: "assets/images/skills/nginx.png",
+            title: "NGINX",
           },
           {
-            imgUrl: "assets/images/skills/jwt.png",
-            title: "JWT",
-          },
-          {
-            imgUrl: "assets/images/skills/js.png",
-            title: "JS",
-          },
-          {
-            imgUrl: "assets/images/skills/pug.png",
-            title: "Pug",
-          },
-          {
-            imgUrl: "assets/images/skills/html.png",
-            title: "HTML",
-          },
-          {
-            imgUrl: "assets/images/skills/css.png",
-            title: "CSS",
-          },
-        ],
-        // list of tools items to loop through it
-        toolsItems: [
-          {
-            imgUrl: "assets/images/skills/npm.png",
-            title: "Npm",
+            imgUrl: "assets/images/skills/vercel.png",
+            title: "Vercel",
           },
           {
             imgUrl: "assets/images/skills/git.png",
@@ -705,47 +714,33 @@
             title: "Git (Github)",
           },
           {
-            imgUrl: "assets/images/skills/cmd.png",
-            title: "Command Line",
+            imgUrl: "assets/images/skills/js.png",
+            title: "JS",
           },
           {
-            imgUrl: "assets/images/skills/jetbrians.png",
-            title: "Jet Brains",
+            imgUrl: "assets/images/skills/npm.png",
+            title: "Npm",
           },
           {
-            imgUrl: "assets/images/skills/postman.png",
-            title: "Postman",
-          },
-          {
-            imgUrl: "assets/images/skills/vercel.png",
-            title: "Vercel",
-          },
-          {
-            imgUrl: "assets/images/skills/sourcetree.png",
-            title: "Source Tree",
-          },
-          {
-            imgUrl: "assets/images/skills/android.png",
-            title: "Android Studio",
+            imgUrl: "assets/images/skills/pm2.png",
+            title: "PM2",
           },
           {
             imgUrl: "assets/images/skills/cloudflare.png",
             title: "Cloudflare",
           },
           {
-            imgUrl: "assets/images/skills/ps.png",
-            title: "Adobe Photoshop",
-          },
-          {
-            imgUrl: "assets/images/skills/ae.png",
-            title: "Adobe After Effects",
+            imgUrl: "assets/images/skills/postman.png",
+            title: "Postman",
           },
         ],
+        // list of tools items to loop through it
+        toolsItems: [],
         // list of experience items to loop through it
         // current page of portfolio items
         portfolioItemsPage: 1,
         // portfolio items per page
-        itemsPerPage: 7,
+        itemsPerPage: 50,
         // portfolio items filter by type
         filters: ["All"],
         currentFilter: "All",
@@ -836,7 +831,7 @@
             },
           },
           {
-            id: 6,
+            id: 7,
             url: "https://diag.khush.pro",
             imgUrl: "assets/images/projects/diag.jpg",
             title: {
@@ -844,6 +839,90 @@
             },
             date: {
               en: "April 2025",
+            },
+          },
+          {
+            id: 8,
+            url: "https://chat.khush.pro",
+            imgUrl: "assets/images/projects/chat.png",
+            title: {
+              en: "Chat App",
+            },
+            date: {
+              en: "August 2025",
+            },
+            desc: {
+              en: "Random Group Chat Web App",
+            },
+          },
+          {
+            id: 9,
+            url: "https://pizza.khush.pro",
+            imgUrl: "assets/images/projects/pizza.png",
+            title: {
+              en: "Order Pizza !!!",
+            },
+            date: {
+              en: "July 2025",
+            },
+            desc: {
+              en: "Order a Pizza for you ;)",
+            },
+          },
+          {
+            id: 10,
+            url: "https://ww.khush.pro",
+            imgUrl: "assets/images/projects/ww.png",
+            title: {
+              en: "World Wise",
+            },
+            date: {
+              en: "July 2025",
+            },
+            desc: {
+              en: "Mark down the places where you have been all around the world",
+            },
+          },
+          {
+            id: 11,
+            url: "https://quiz.khush.pro",
+            imgUrl: "assets/images/projects/quiz.png",
+            title: {
+              en: "React Quiz",
+            },
+            date: {
+              en: "July 2025",
+            },
+            desc: {
+              en: "Lets see what do you know about React so far",
+            },
+          },
+          {
+            id: 12,
+            url: "https://imdb.khush.pro",
+            imgUrl: "assets/images/projects/popcorn.png",
+            title: {
+              en: "Use Popcorn",
+            },
+            date: {
+              en: "July 2025",
+            },
+            desc: {
+              en: "Find the all the ratings about your movie ;)",
+            },
+          },
+          {
+            id: 13,
+            url: "https://www.npmjs.com/package/@kapvm/create-express-app",
+            imgUrl: "assets/images/projects/express.png",
+            title: {
+              en: "Express Starter Boilerplate",
+            },
+            date: {
+              en: "July 2025",
+            },
+            desc: {
+              en: "Click the image for more info",
             },
           },
         ],
