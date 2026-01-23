@@ -750,7 +750,7 @@
         allPortfolioItems: [
           {
             id: 1,
-            url: "fusion.khush.pro",
+            url: "https://fusion.khush.pro",
             imgUrl: "assets/images/projects/fusion.png",
             title: {
               en: "Fusion Tech",
