@@ -750,7 +750,7 @@
         allPortfolioItems: [
           {
             id: 1,
-            url: "https://github.com/kapvm4444/Fusion-Tech",
+            url: "fusion.khush.pro",
             imgUrl: "assets/images/projects/fusion.png",
             title: {
               en: "Fusion Tech",
@@ -843,7 +843,7 @@
           },
           {
             id: 8,
-            url: "https://chat.khush.pro",
+            url: "https://github.com/kapvm4444/chat-app",
             imgUrl: "assets/images/projects/chat.png",
             title: {
               en: "Chat App",
