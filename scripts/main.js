@@ -145,8 +145,8 @@
             start: `${showAt}px top`,
             end: "bottom bottom",
             onUpdate: (self) =>
-              (backTopBtnPath.style.strokeDashoffset =
-                backTopBtnPathLength - self.progress * backTopBtnPathLength),
+            (backTopBtnPath.style.strokeDashoffset =
+              backTopBtnPathLength - self.progress * backTopBtnPathLength),
           },
         });
       },
@@ -203,7 +203,7 @@
               scrollTrigger: {
                 trigger: box,
                 start: "top 85%",
-                end: "top 35%",
+                end: box.closest(".contact-section") ? "bottom bottom" : "top 35%",
                 scrub: 0.3,
               },
             })
@@ -508,7 +508,7 @@
           scrollTrigger: {
             trigger: ".contact-section .contact-info",
             start: "top 80%",
-            end: "top 50%",
+            end: "bottom bottom",
             scrub: 0.3,
           },
         });
@@ -538,7 +538,7 @@
           ease: "power3.out",
           scrollTrigger: {
             trigger: ".contact-section .social",
-            start: "top 80%",
+            start: "top bottom",
             toggleActions: "play none none reverse",
             // markers: true,
           },
@@ -563,7 +563,7 @@
             scrollTrigger: {
               trigger: ".contact-section .contact-form",
               start: "top 80%",
-              end: "top 50%",
+              end: "bottom bottom",
               scrub: 0.3,
             },
           })
@@ -582,9 +582,9 @@
     data() {
       return {
         // the date my career started (change to yours)
-        careerStartDate: 2010,
+        careerStartDate: 2023,
         // the date copyright started (change to yours)
-        copyrightStartDate: 2021,
+        copyrightStartDate: new Date().getFullYear(),
         // for the template theme
         appTheme: "light_theme",
         savedTheme: null,
@@ -641,98 +641,41 @@
         skillsType: "",
         // list of skills items to loop through it
         skillsItems: [
-          {
-            imgUrl: "assets/images/skills/react.png",
-            title: "React",
-          },
-          {
-            imgUrl: "assets/images/skills/redux.png",
-            title: "Redux",
-          },
-          {
-            imgUrl: "assets/images/skills/react-query.png",
-            title: "React Query",
-          },
-          {
-            imgUrl: "assets/images/skills/react-router.png",
-            title: "React Router",
-          },
-          {
-            imgUrl: "assets/images/skills/vite.png",
-            title: "Vite",
-          },
-          {
-            imgUrl: "assets/images/skills/next.png",
-            title: "Next",
-          },
-          {
-            imgUrl: "assets/images/skills/node.png",
-            title: "NodeJs",
-          },
-          {
-            imgUrl: "assets/images/skills/express.png",
-            title: "ExpressJS",
-          },
-          {
-            imgUrl: "assets/images/skills/socket.png",
-            title: "Socket",
-          },
-          {
-            imgUrl: "assets/images/skills/mongo.png",
-            title: "MongoDB",
-          },
-          {
-            imgUrl: "assets/images/skills/supabase.png",
-            title: "Supabase",
-          },
-          {
-            imgUrl: "assets/images/skills/jwt.png",
-            title: "JWT",
-          },
-          {
-            imgUrl: "assets/images/skills/tailwind.png",
-            title: "Tailwind",
-          },
-          {
-            imgUrl: "assets/images/skills/bootstrap.png",
-            title: "Bootstrap",
-          },
-          {
-            imgUrl: "assets/images/skills/nginx.png",
-            title: "NGINX",
-          },
-          {
-            imgUrl: "assets/images/skills/vercel.png",
-            title: "Vercel",
-          },
-          {
-            imgUrl: "assets/images/skills/git.png",
-            title: "Git",
-          },
-          {
-            imgUrl: "assets/images/skills/github.png",
-            title: "Git (Github)",
-          },
-          {
-            imgUrl: "assets/images/skills/js.png",
-            title: "JS",
-          },
-          {
-            imgUrl: "assets/images/skills/npm.png",
-            title: "Npm",
-          },
-          {
-            imgUrl: "assets/images/skills/pm2.png",
-            title: "PM2",
-          },
-          {
-            imgUrl: "assets/images/skills/cloudflare.png",
-            title: "Cloudflare",
-          },
-          {
-            imgUrl: "assets/images/skills/postman.png",
-            title: "Postman",
-          },
+          // Frontend
+          { imgUrl: "assets/images/skills/react.png", title: "React" },
+          { imgUrl: "assets/images/skills/next.png", title: "Next.js" },
+          { imgUrl: "assets/images/skills/redux.png", title: "Redux" },
+          { imgUrl: "assets/images/skills/react-query.png", title: "React Query" },
+          { imgUrl: "assets/images/skills/react-router.png", title: "React Router" },
+          { imgUrl: "assets/images/skills/vite.png", title: "Vite" },
+          { imgUrl: "assets/images/skills/tailwind.png", title: "Tailwind CSS" },
+          { imgUrl: "assets/images/skills/bootstrap.png", title: "Bootstrap" },
+          { imgUrl: "assets/images/skills/js.png", title: "JavaScript" },
+
+          // Backend
+          { imgUrl: "assets/images/skills/node.png", title: "Node.js" },
+          { imgUrl: "assets/images/skills/express.png", title: "Express.js" },
+          { imgUrl: "assets/images/skills/socket.png", title: "Socket.io" },
+          { imgUrl: "assets/images/skills/mongo.png", title: "MongoDB" },
+          { imgUrl: "assets/images/skills/supabase.png", title: "Supabase" },
+          { imgUrl: "assets/images/skills/jwt.png", title: "JWT" },
+
+          // DevOps & Cloud
+          { imgUrl: "assets/images/skills/docker.svg", title: "Docker" },
+          { imgUrl: "assets/images/skills/docker-compose.svg", title: "Docker Compose" },
+          { imgUrl: "assets/images/skills/nginx.png", title: "NGINX" },
+          { imgUrl: "assets/images/skills/digitalocean.svg", title: "Digital Ocean" },
+          { imgUrl: "assets/images/skills/cloudflare.png", title: "Cloudflare" },
+          { imgUrl: "assets/images/skills/vercel.png", title: "Vercel" },
+          { imgUrl: "assets/images/skills/pm2.png", title: "PM2" },
+          { imgUrl: "assets/images/skills/render.svg", title: "Render" },
+          { imgUrl: "assets/images/skills/git.png", title: "Git" },
+          { imgUrl: "assets/images/skills/github.png", title: "GitHub" },
+
+          // Tools
+          { imgUrl: "assets/images/skills/n8n.png", title: "n8n" },
+          { imgUrl: "assets/images/skills/postman.png", title: "Postman" },
+          { imgUrl: "assets/images/skills/npm.png", title: "npm" },
         ],
         // list of tools items to loop through it
         toolsItems: [],
@@ -749,181 +692,122 @@
         // list of portfolio items to loop through it
         allPortfolioItems: [
           {
-            id: 1,
-            url: "https://fusion.khush.pro",
-            imgUrl: "assets/images/projects/fusion.png",
-            title: {
-              en: "Fusion Tech",
-            },
-            date: {
-              en: "May 2023",
-            },
-            desc: {
-              en: "Fusion Tech is a PC building platform and an accessories and components shop ",
-            },
+            id: 14,
+            url: "https://n8n.khush.pro",
+            imgUrl: "assets/images/projects/n8n.png",
+            title: { en: "Self-Hosted n8n" },
+            date: { en: "2025" },
+            desc: { en: "Self hosted n8n for personal use and learnings" },
           },
           {
-            id: 2,
-            url: "https://list.khush.pro",
-            imgUrl: "assets/images/projects/todo.png",
-            title: {
-              en: "Going Far Away...",
-            },
-            date: {
-              en: "February 2025",
-            },
-            desc: {
-              en: "A place where you can make a list for items to pack before a trip",
-            },
-          },
-          {
-            id: 3,
-            url: "https://split.khush.pro",
-            imgUrl: "assets/images/projects/eat-n-split.png",
-            title: {
-              en: "Eat-n-Split",
-            },
-            date: {
-              en: "March 2025",
-            },
-            desc: {
-              en: "Want to split bill evenly without doing any maths stuff? Here you go",
-            },
+            id: 15,
+            url: "https://kvizz.khush.pro",
+            imgUrl: "assets/images/projects/kvizz.png",
+            title: { en: "Kvizz App" },
+            date: { en: "2025" },
+            desc: { en: "Real-time multiplayer quiz platform (ExpressJS, Socket.io)" },
           },
           {
             id: 4,
             url: "https://natours.khush.pro",
             imgUrl: "assets/images/projects/natours.png",
-            title: {
-              en: "Natours",
-            },
-            date: {
-              en: "January 2025",
-            },
-            desc: {
-              en: "Natours is an easy solution for tour booking system",
-              ar: "",
-            },
+            title: { en: "Natours" },
+            date: { en: "January 2025" },
+            desc: { en: "Natours is an easy solution for tour booking system", ar: "" },
+          },
+          {
+            id: 1,
+            url: "https://fusion.khush.pro",
+            imgUrl: "assets/images/projects/fusion.png",
+            title: { en: "Fusion Tech" },
+            date: { en: "May 2023" },
+            desc: { en: "Fusion Tech is a PC building platform and an accessories and components shop " },
           },
           {
             id: 5,
             url: "https://safety.khush.pro",
             imgUrl: "assets/images/projects/safety.png",
-            title: {
-              en: "SafetyNet API",
-            },
-            date: {
-              en: "March 2025",
-            },
-            desc: {
-              en: "SafetyNet is an emergency system for public safety (This is just API and also some work is in progress)",
-            },
-          },
-          {
-            id: 6,
-            url: "https://fos.khush.pro",
-            imgUrl: "assets/images/projects/fos.png",
-            title: {
-              en: "Fragrance of South",
-            },
-            date: {
-              en: "May 2021",
-            },
-          },
-          {
-            id: 7,
-            url: "https://diag.khush.pro",
-            imgUrl: "assets/images/projects/diag.jpg",
-            title: {
-              en: "Generate diagnosis report pdf",
-            },
-            date: {
-              en: "April 2025",
-            },
-          },
-          {
-            id: 8,
-            url: "https://github.com/kapvm4444/chat-app",
-            imgUrl: "assets/images/projects/chat.png",
-            title: {
-              en: "Chat App",
-            },
-            date: {
-              en: "August 2025",
-            },
-            desc: {
-              en: "Random Group Chat Web App",
-            },
-          },
-          {
-            id: 9,
-            url: "https://pizza.khush.pro",
-            imgUrl: "assets/images/projects/pizza.png",
-            title: {
-              en: "Order Pizza !!!",
-            },
-            date: {
-              en: "July 2025",
-            },
-            desc: {
-              en: "Order a Pizza for you ;)",
-            },
-          },
-          {
-            id: 10,
-            url: "https://ww.khush.pro",
-            imgUrl: "assets/images/projects/ww.png",
-            title: {
-              en: "World Wise",
-            },
-            date: {
-              en: "July 2025",
-            },
-            desc: {
-              en: "Mark down the places where you have been all around the world",
-            },
-          },
-          {
-            id: 11,
-            url: "https://quiz.khush.pro",
-            imgUrl: "assets/images/projects/quiz.png",
-            title: {
-              en: "React Quiz",
-            },
-            date: {
-              en: "July 2025",
-            },
-            desc: {
-              en: "Lets see what do you know about React so far",
-            },
-          },
-          {
-            id: 12,
-            url: "https://imdb.khush.pro",
-            imgUrl: "assets/images/projects/popcorn.png",
-            title: {
-              en: "Use Popcorn",
-            },
-            date: {
-              en: "July 2025",
-            },
-            desc: {
-              en: "Find the all the ratings about your movie ;)",
-            },
+            title: { en: "SafetyNet API" },
+            date: { en: "March 2025" },
+            desc: { en: "SafetyNet is an emergency system for public safety (This is just API and also some work is in progress)" },
           },
           {
             id: 13,
             url: "https://www.npmjs.com/package/@kapvm/create-express-app",
             imgUrl: "assets/images/projects/express.png",
-            title: {
-              en: "Express Starter Boilerplate",
-            },
-            date: {
-              en: "July 2025",
-            },
-            desc: {
-              en: "Click the image for more info",
-            },
+            title: { en: "Express Starter Boilerplate" },
+            date: { en: "July 2025" },
+            desc: { en: "Click the image for more info" },
+          },
+          {
+            id: 8,
+            url: "https://github.com/kapvm4444/chat-app",
+            imgUrl: "assets/images/projects/chat.png",
+            title: { en: "Chat App" },
+            date: { en: "August 2025" },
+            desc: { en: "Random Group Chat Web App" },
+          },
+          {
+            id: 10,
+            url: "https://ww.khush.pro",
+            imgUrl: "assets/images/projects/ww.png",
+            title: { en: "World Wise" },
+            date: { en: "July 2025" },
+            desc: { en: "Mark down the places where you have been all around the world" },
+          },
+          {
+            id: 7,
+            url: "https://diag.khush.pro",
+            imgUrl: "assets/images/projects/diag.jpg",
+            title: { en: "Generate diagnosis report pdf" },
+            date: { en: "April 2025" },
+          },
+          {
+            id: 12,
+            url: "https://imdb.khush.pro",
+            imgUrl: "assets/images/projects/popcorn.png",
+            title: { en: "Use Popcorn" },
+            date: { en: "July 2025" },
+            desc: { en: "Find the all the ratings about your movie ;)" },
+          },
+          {
+            id: 11,
+            url: "https://quiz.khush.pro",
+            imgUrl: "assets/images/projects/quiz.png",
+            title: { en: "React Quiz" },
+            date: { en: "July 2025" },
+            desc: { en: "Lets see what do you know about React so far" },
+          },
+          {
+            id: 3,
+            url: "https://split.khush.pro",
+            imgUrl: "assets/images/projects/eat-n-split.png",
+            title: { en: "Eat-n-Split" },
+            date: { en: "March 2025" },
+            desc: { en: "Want to split bill evenly without doing any maths stuff? Here you go" },
+          },
+          {
+            id: 9,
+            url: "https://pizza.khush.pro",
+            imgUrl: "assets/images/projects/pizza.png",
+            title: { en: "Order Pizza !!!" },
+            date: { en: "July 2025" },
+            desc: { en: "Order a Pizza for you ;)" },
+          },
+          {
+            id: 2,
+            url: "https://list.khush.pro",
+            imgUrl: "assets/images/projects/todo.png",
+            title: { en: "Going Far Away..." },
+            date: { en: "February 2025" },
+            desc: { en: "A place where you can make a list for items to pack before a trip" },
+          },
+          {
+            id: 6,
+            url: "https://fos.khush.pro",
+            imgUrl: "assets/images/projects/fos.png",
+            title: { en: "Fragrance of South" },
+            date: { en: "May 2021" },
           },
         ],
         // viewed portfolio items
@@ -995,8 +879,8 @@
           ); // add link hover style
 
           e.target.closest("a") ||
-          e.target.closest("button") ||
-          e.target.closest(".link-hover")
+            e.target.closest("button") ||
+            e.target.closest(".link-hover")
             ? inner.classList.add("cursor-link-hover")
             : inner.classList.remove("cursor-link-hover");
         });
@@ -1432,42 +1316,55 @@
       // send message from contact form
       sendContactFormMessage(form) {
         const url = form.getAttribute("action");
-        const formData = new FormData(form); // start loading spinner
+        const formData = new FormData(form);
 
-        this.startLoading(); // send post request
+        // start loading spinner
+        this.startLoading();
 
+        // send post request
         fetch(url, {
           method: "POST",
           body: formData,
         })
-          .then((res) => res.text())
+          .then((res) => res.json())
           .then((data) => {
-            if (data === "success") {
+            if (data.success) {
               // show success message
               this.setNotify({
                 className: "success",
                 msg: form.getAttribute("data-success-msg"),
                 time: 5000,
-              }); // reset all form inputs
+              });
 
-              form.reset(); // remove inputs valid classes
+              // reset all form inputs
+              form.reset();
 
+              // remove inputs valid classes
               form
                 .querySelectorAll(".valid")
                 .forEach((el) => el.classList.remove("valid"));
-            } else if (data === "error") {
+            } else {
               // show error message
               this.setNotify({
                 className: "danger",
                 msg: form.getAttribute("data-err-msg"),
                 time: 5000,
               });
-            } // end loading spinner
+            }
 
+            // end loading spinner
             this.endLoading();
             console.log(data);
           })
-          .catch((err) => console.log(err));
+          .catch((err) => {
+            console.log(err);
+            this.endLoading();
+            this.setNotify({
+              className: "danger",
+              msg: form.getAttribute("data-err-msg"),
+              time: 5000,
+            });
+          });
       },
       // show messages by toast notifications
       setNotify({ id, className, msg, time }) {
